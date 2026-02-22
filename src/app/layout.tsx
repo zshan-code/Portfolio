@@ -202,7 +202,7 @@ export default function RootLayout({
     sameAs: [
       "https://github.com/zshan-code",
       "https://www.linkedin.com/in/zshancode",
-      "https://www.facebook.com/profile.php?id=61588321747344"
+      "https://www.facebook.com/zshan.code"
     ],
     jobTitle: "Full Stack Developer",
     worksFor: {

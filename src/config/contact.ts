@@ -11,7 +11,7 @@ export const CONTACT_INFO = {
   timezone: "ISB (UTC+5:00)",
   github: "https://github.com/zshan-code",
   linkedin: "https://www.linkedin.com/in/zshancode",
-  facebook: "https://www.facebook.com/profile.php?id=61588321747344",
+  facebook: "https://www.facebook.com/zshan.code",
   twitter: "",
 } as const;
 
