@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Github, Linkedin, MessageCircle, Clock, Send, MessageSquare } from 'lucide-react';
+import { Mail, Phone, MapPin, Github, Linkedin, MessageCircle, Clock, Send, MessageSquare, Facebook } from 'lucide-react';
 import { useState } from 'react';
 import { CONTACT_INFO, OFFICE_HOURS } from '../config/contact';
 
@@ -95,6 +95,11 @@ const Contact = () => {
 			icon: <MessageCircle className="w-5 h-5" />,
 			label: 'WhatsApp',
 			link: `https://wa.me/${CONTACT_INFO.whatsapp.replace('+', '')}`
+		},
+		{
+			icon: <Facebook className="w-5 h-5" />,
+			label: 'Facebook',
+			link: CONTACT_INFO.facebook
 		}
 	];
 

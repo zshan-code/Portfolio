@@ -201,6 +201,8 @@ export default function RootLayout({
     image: "/profile/profile.jpg",
     sameAs: [
       "https://github.com/zshan-code",
+      "https://www.linkedin.com/in/zshancode",
+      "https://www.facebook.com/profile.php?id=61588321747344"
     ],
     jobTitle: "Full Stack Developer",
     worksFor: {

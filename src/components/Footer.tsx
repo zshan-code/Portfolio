@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { Code2, Github, Linkedin, Mail, Phone } from "lucide-react";
+import { Code2, Github, Linkedin, Mail, Phone, Facebook } from "lucide-react";
+import { CONTACT_INFO } from "../config/contact";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -117,7 +118,7 @@ const Footer = () => {
             <h3 className="text-sm font-semibold text-white">Social</h3>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/zshan-code"
+                href={CONTACT_INFO.github}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -126,7 +127,7 @@ const Footer = () => {
                 <Github className="w-5 h-5" aria-hidden="true" />
               </a>
               <a
-                href=""
+                href={CONTACT_INFO.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -135,7 +136,16 @@ const Footer = () => {
                 <Linkedin className="w-5 h-5" aria-hidden="true" />
               </a>
               <a
-                href="mailto:zshan.code@gmail.com"
+                href={CONTACT_INFO.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors"
+                aria-label="Facebook profile"
+              >
+                <Facebook className="w-5 h-5" aria-hidden="true" />
+              </a>
+              <a
+                href={`mailto:${CONTACT_INFO.email}`}
                 className="text-gray-400 hover:text-white transition-colors"
                 aria-label="Email"
               >
