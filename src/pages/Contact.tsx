@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Github, Linkedin, MessageCircle, Clock, Send, MessageSquare } from 'lucide-react';
 import { useState } from 'react';
+import { CONTACT_INFO, OFFICE_HOURS } from '../config/contact';
 
 // 👇 Replace this with your actual Formspree form ID
 // Get it free at https://formspree.io → New Form → Copy the ID from the URL
@@ -25,7 +26,7 @@ const Contact = () => {
 		setSubmitStatus('idle');
 
 		try {
-			const response = await fetch(`https://formspree.io/f/xvzbwdvl`, {
+			const response = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",
@@ -58,24 +59,24 @@ const Contact = () => {
 		{
 			icon: <Mail className="w-5 h-5" />,
 			label: 'Email',
-			value: 'zshan.code@gmail.com',
-			link: 'mailto:zshan.code@gmail.com'
+			value: CONTACT_INFO.email,
+			link: `mailto:${CONTACT_INFO.email}`
 		},
 		{
 			icon: <Phone className="w-5 h-5" />,
 			label: 'Phone',
-			value: '+923186659743',
-			link: 'tel:+923186659743'
+			value: CONTACT_INFO.phone,
+			link: `tel:${CONTACT_INFO.phone}`
 		},
 		{
 			icon: <MapPin className="w-5 h-5" />,
 			label: 'Location',
-			value: 'Faisalabad, Punjab, Pakistan'
+			value: CONTACT_INFO.location
 		},
 		{
 			icon: <Clock className="w-5 h-5" />,
 			label: 'Time Zone',
-			value: 'ISB (UTC+5:00)'
+			value: CONTACT_INFO.timezone
 		}
 	];
 
@@ -83,17 +84,17 @@ const Contact = () => {
 		{
 			icon: <Github className="w-5 h-5" />,
 			label: 'GitHub',
-			link: 'https://github.com/zshan-code'
+			link: CONTACT_INFO.github
 		},
 		{
 			icon: <Linkedin className="w-5 h-5" />,
 			label: 'LinkedIn',
-			link: ''
+			link: CONTACT_INFO.linkedin
 		},
 		{
 			icon: <MessageCircle className="w-5 h-5" />,
 			label: 'WhatsApp',
-			link: 'https://wa.me/+923186659743'
+			link: `https://wa.me/${CONTACT_INFO.whatsapp.replace('+', '')}`
 		}
 	];
 
