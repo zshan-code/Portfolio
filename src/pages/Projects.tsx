@@ -36,7 +36,7 @@ const projects = [
 	{
 		title: 'Fitness Mobile App',
 		description: 'Fitness App is a React Native mobile application offering workout guidance and health tracking features, built with Expo for a responsive and performance-focused user experience.',
-		image: '/projects_img/react-native-fitness-app.png',
+		image: '/projects_img/fitness.jpg',
 		github: 'https://github.com/zshan-code/fitness-app.git',
 		tags: ['ReactNative.js', 'Tailwind CSS', 'JavaScript', 'Expo']
 	},
