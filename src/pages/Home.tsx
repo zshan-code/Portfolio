@@ -209,7 +209,7 @@ const Home = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.8 }}
             >
-              <span className="text-base sm:text-lg font-semibold">4000+</span>
+              <span className="text-base sm:text-lg font-semibold">100+</span>
               <span className="text-xs sm:text-sm text-gray-400">
                 LinkedIn
               </span>
@@ -236,7 +236,7 @@ const Home = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.8 }}
             >
-              <span className="text-base sm:text-lg font-semibold">Updated</span>
+              <span className="text-base sm:text-lg font-semibold">Posts</span>
               <span className="text-xs sm:text-sm text-gray-400">
                 Facebook
               </span>
