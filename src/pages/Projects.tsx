@@ -7,7 +7,7 @@ import { ScrollAnimation } from '@/components/ScrollAnimation';
 const projects = [
 	{
 		title: 'Live Docs',
-		description: 'Real-time collaborative document editor built with Next.js, TypeScript, and Tailwind CSS, featuring live editing, comments, and notifications.',
+		description: 'Real-time collaborative document editor built with Next.js, TypeScript, and Tailwind CSS, featuring live editing, comments, and notifications and many other features.',
 		image: '/projects_img/project-1.png',
 		github: 'https://github.com/niladri-1/LiveDocs',
 		tags: ["Next.js", "TypeScript", "Liveblocks", "Lexical Editor", "ShadCN", "Tailwind CSS"]
@@ -46,6 +46,13 @@ const projects = [
 		image: '/projects_img/Shopit.png',
 		github: 'https://github.com/zshan-code/Mern-Stack-Ecom-Project-Frontend.git',
 		tags: ['React.js', 'Tailwind CSS', 'JavaScript', 'MongoDB', 'Node.js', 'Express.js']
+	},
+	{
+		title: 'Recipe Master',
+		description: 'A modern full-stack mobile recipe application built with React Native, Expo, and Express.js, featuring secure authentication, dynamic theming, smooth user experience, and PostgreSQL integration. Ideal for showcasing advanced mobile and backend development skills.',
+		image: '/projects_img/1.png',
+		github: 'https://github.com/zshan-code/Recipe-Master-Frontend.git',
+		tags: ['React Native', 'Expo', 'Express.js', 'PostgreSQL', 'JavaScript']
 	},
 ];
 
