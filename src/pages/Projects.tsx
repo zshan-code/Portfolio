@@ -57,7 +57,7 @@ const projects = [
 	{
 		title: 'React-Native-Ecom',
 		description: 'Full-Stack E-Commerce App with a React Native (Expo) mobile app, Admin Dashboard, and REST API (Node.js + Express). Features secure Clerk auth, Stripe payments, cart & orders flow, product/order/customer management, live analytics, background jobs (Inngest), Sentry monitoring, and deployment-ready setup.',
-		image: '/projects_img/ReactbasedEcomapp.png',
+		image: '/projects_img/reactbasedecomapp.png',
 		github: 'https://github.com/zshan-code/React-Native-Ecom.git',
 		tags: ['React Native', 'Expo', 'Express.js', 'MongoDB', 'Node.js', 'JavaScript']
 	},
