@@ -50,12 +50,12 @@ const nextConfig = {
             key: "Content-Security-Policy",
             value: [
               "default-src 'self'",
-              // Allow Next.js internal scripts
               "script-src 'self' 'unsafe-inline' 'unsafe-eval'",
               "style-src 'self' 'unsafe-inline'",
               "img-src 'self' data: https:",
               "font-src 'self' data:",
               "connect-src 'self' https://api.github.com",
+              "object-src 'self'",
               "frame-ancestors 'self'",
             ].join("; "),
           },

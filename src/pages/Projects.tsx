@@ -49,11 +49,19 @@ const projects = [
 	},
 	{
 		title: 'Recipe Master',
-		description: 'A modern full-stack mobile recipe application built with React Native, Expo, and Express.js, featuring secure authentication, dynamic theming, smooth user experience, and PostgreSQL integration. Ideal for showcasing advanced mobile and backend development skills.',
+		description: 'A modern full-stack mobile recipe application built with React Native, Expo, and Express.js, featuring secure authentication, dynamic theming, having the day/night mood, smooth user experience, and PostgreSQL integration. Ideal for showcasing advanced mobile and backend development skills.',
 		image: '/projects_img/1.png',
 		github: 'https://github.com/zshan-code/Recipe-Master-Frontend.git',
 		tags: ['React Native', 'Expo', 'Express.js', 'PostgreSQL', 'JavaScript']
 	},
+	{
+		title: 'React-Native-Ecom',
+		description: 'Full-Stack E-Commerce App with a React Native (Expo) mobile app, Admin Dashboard, and REST API (Node.js + Express). Features secure Clerk auth, Stripe payments, cart & orders flow, product/order/customer management, live analytics, background jobs (Inngest), Sentry monitoring, and deployment-ready setup.',
+		image: '/projects_img/ReactbasedEcomapp.png',
+		github: 'https://github.com/zshan-code/React-Native-Ecom.git',
+		tags: ['React Native', 'Expo', 'Express.js', 'MongoDB', 'Node.js', 'JavaScript']
+	},
+
 ];
 
 const Projects = () => {

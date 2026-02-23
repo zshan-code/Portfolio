@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from "next/link";
 import { Code2, Briefcase, GraduationCap, Award, Users, Globe } from 'lucide-react';
 import { ScrollAnimation } from '@/components/ScrollAnimation';
+import { CONTACT_INFO } from '../config/contact';
 
 const About = () => {
 	const achievements = [
@@ -89,7 +90,7 @@ const About = () => {
 					<ScrollAnimation>
 						<div className="flex justify-start space-x-4">
 							<Link
-								href=""
+								href={CONTACT_INFO.cv}
 								target="_blank"
 								rel="noopener noreferrer"
 								className="px-6 py-3 bg-white text-black rounded-full font-medium hover:bg-gray-100 transition-colors"

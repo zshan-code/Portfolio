@@ -13,6 +13,7 @@ export const CONTACT_INFO = {
   linkedin: "https://www.linkedin.com/in/zshancode",
   facebook: "https://www.facebook.com/zshan.code",
   twitter: "",
+  cv: "/files/cv_pdf/zshan-cv.pdf",
 } as const;
 
 export const OFFICE_HOURS = {
